@@ -1,0 +1,2 @@
+# opentsdb
+开源OpenTSDB源码是由MakeFile管理，本项目是将开源的OpenTSDB源码转为Maven管理
