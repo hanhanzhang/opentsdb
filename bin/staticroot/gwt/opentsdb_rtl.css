@@ -32,7 +32,7 @@ a, a:visited, a:hover {
   font-size: small;
   cursor: pointer;
   cursor: hand;
-  background: url("images/hborder.png") repeat-x 0px -989px;
+  background: url("opentsdb/images/hborder.png") repeat-x 0px -989px;
   border: 1px outset #ccc;
 }
 .gwt-Button:active {
@@ -59,11 +59,11 @@ a, a:visited, a:hover {
 }
 .gwt-DecoratorPanel .topCenter,
 .gwt-DecoratorPanel .bottomCenter {
-  background: url(images/hborder.png) repeat-x;
+  background: url(opentsdb/images/hborder.png) repeat-x;
 }
 .gwt-DecoratorPanel .middleLeft,
 .gwt-DecoratorPanel .middleRight {
-  background: url(images/vborder.png) repeat-y;
+  background: url(opentsdb/images/vborder.png) repeat-y;
 }
 .gwt-DecoratorPanel .topLeftInner,
 .gwt-DecoratorPanel .topRightInner,
@@ -74,16 +74,16 @@ a, a:visited, a:hover {
   zoom: 1;
 }
 html>body .gwt-DecoratorPanel .topLeft {
-  background: url(images/corner.png) no-repeat 0px 0px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px 0px;
 }
 html>body .gwt-DecoratorPanel .topRight {
-  background: url(images/corner.png) no-repeat -5px 0px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px 0px;
 }
 html>body .gwt-DecoratorPanel .bottomLeft {
-  background: url(images/corner.png) no-repeat 0px -5px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -5px;
 }
 html>body .gwt-DecoratorPanel .bottomRight {
-  background: url(images/corner.png) no-repeat -5px -5px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -5px;
 }
 * html .gwt-DecoratorPanel .topLeftInner {
   width: 5px;
@@ -116,7 +116,7 @@ html>body .gwt-DecoratorPanel .bottomRight {
 }
 
 .gwt-DialogBox .Caption {
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -2003px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -2003px;
   padding: 4px 8px 4px 4px;
   cursor: default;
   border-bottom: 1px solid #bbbbbb;
@@ -129,16 +129,16 @@ html>body .gwt-DecoratorPanel .bottomRight {
   background: white;
 }
 html>body .gwt-DialogBox .dialogBottomCenter {
-  background: url(images/hborder.png) repeat-x 0px -4px;
+  background: url(opentsdb/images/hborder.png) repeat-x 0px -4px;
 }
 * html .gwt-DialogBox .dialogBottomCenter {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/hborder_blue_shadow.png',sizingMethod='scale');
 }
 .gwt-DialogBox .dialogMiddleLeft {
-  background: url(images/vborder.png) repeat-y;
+  background: url(opentsdb/images/vborder.png) repeat-y;
 }
 html>body .gwt-DialogBox .dialogMiddleRight {
-  background: url(images/vborder.png) repeat-y -4px 0px;
+  background: url(opentsdb/images/vborder.png) repeat-y -4px 0px;
 }
 * html .gwt-DialogBox .dialogMiddleRight {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/vborder_blue_shadow.png',sizingMethod='scale');
@@ -162,16 +162,16 @@ html>body .gwt-DialogBox .dialogMiddleRight {
   zoom: 1;
 }
 html>body .gwt-DialogBox .dialogTopLeft {
-  background: url(images/corner.png) no-repeat -13px 0px;
+  background: url(opentsdb/images/corner.png) no-repeat -13px 0px;
 }
 html>body .gwt-DialogBox .dialogTopRight {
-  background: url(images/corner.png) no-repeat -18px 0px;
+  background: url(opentsdb/images/corner.png) no-repeat -18px 0px;
 }
 html>body .gwt-DialogBox .dialogBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -15px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -15px;
 }
 html>body .gwt-DialogBox .dialogBottomRight {
-  background: url(images/corner.png) no-repeat -5px -15px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -15px;
 }
 * html .gwt-DialogBox .dialogTopLeft {
   width: 5px;
@@ -233,7 +233,7 @@ html>body .gwt-DialogBox .dialogBottomRight {
 .gwt-HorizontalSplitPanel .hsplitter {
   cursor: move;
   border: 0px; 
-  background: #91c0ef url(images/vborder.png) repeat-y;
+  background: #91c0ef url(opentsdb/images/vborder.png) repeat-y;
   line-height: 0px;
 }
 .gwt-VerticalSplitPanel {
@@ -241,7 +241,7 @@ html>body .gwt-DialogBox .dialogBottomRight {
 .gwt-VerticalSplitPanel .vsplitter {
   cursor: move;
   border: 0px; 
-  background: #91c0ef url(images/hborder.png) repeat-x;
+  background: #91c0ef url(opentsdb/images/hborder.png) repeat-x;
   line-height: 0px;
 }
 
@@ -271,7 +271,7 @@ html>body .gwt-DialogBox .dialogBottomRight {
   color: white;
 }
 .gwt-MenuBar-horizontal {
-  background: #e3e8f3 url(images/hborder.png) repeat-x 0px -2003px;
+  background: #e3e8f3 url(opentsdb/images/hborder.png) repeat-x 0px -2003px;
   border: 1px solid #BBBBBB;
 }
 .gwt-MenuBar-horizontal .gwt-MenuItem {
@@ -325,19 +325,19 @@ html>body .gwt-DialogBox .dialogBottomRight {
   margin: 0px 3px 0px 0px;
 }
 .gwt-MenuBarPopup .menuPopupTopCenter {
-  background: url(images/hborder.png) 0px -12px repeat-x;
+  background: url(opentsdb/images/hborder.png) 0px -12px repeat-x;
 }
 html>body .gwt-MenuBarPopup .menuPopupBottomCenter {
-  background: url(images/hborder.png) 0px -13px repeat-x;
+  background: url(opentsdb/images/hborder.png) 0px -13px repeat-x;
 }
 * html .gwt-MenuBarPopup .menuPopupBottomCenter {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/hborder_gray_shadow.png',sizingMethod='scale');
 }
 .gwt-MenuBarPopup .menuPopupMiddleLeft {
-  background: url(images/vborder.png) -12px 0px repeat-y;
+  background: url(opentsdb/images/vborder.png) -12px 0px repeat-y;
 }
 html>body .gwt-MenuBarPopup .menuPopupMiddleRight {
-  background: url(images/vborder.png) -13px 0px repeat-y;
+  background: url(opentsdb/images/vborder.png) -13px 0px repeat-y;
 }
 * html .gwt-MenuBarPopup .menuPopupMiddleRight {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/vborder_gray_shadow.png',sizingMethod='scale');
@@ -363,16 +363,16 @@ html>body .gwt-MenuBarPopup .menuPopupMiddleRight {
   zoom: 1;
 }
 html>body .gwt-MenuBarPopup .menuPopupTopLeft {
-  background: url(images/corner.png) no-repeat 0px -36px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -36px;
 }
 html>body .gwt-MenuBarPopup .menuPopupTopRight {
-  background: url(images/corner.png) no-repeat -5px -36px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -36px;
 }
 html>body .gwt-MenuBarPopup .menuPopupBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -41px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -41px;
 }
 html>body .gwt-MenuBarPopup .menuPopupBottomRight {
-  background: url(images/corner.png) no-repeat -5px -41px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -41px;
 }
 * html .gwt-MenuBarPopup .menuPopupTopLeftInner {
   width: 5px;
@@ -425,19 +425,19 @@ html>body .gwt-MenuBarPopup .menuPopupBottomRight {
   background: #4fb8e3;
 }
 .gwt-DecoratedPopupPanel .popupTopCenter {
-  background: url(images/hborder.png) repeat-x;
+  background: url(opentsdb/images/hborder.png) repeat-x;
 }
 html>body .gwt-DecoratedPopupPanel .popupBottomCenter {
-  background: url(images/hborder.png) repeat-x 0px -4px;
+  background: url(opentsdb/images/hborder.png) repeat-x 0px -4px;
 }
 * html .gwt-DecoratedPopupPanel .popupBottomCenter {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/hborder_blue_shadow.png',sizingMethod='scale');
 }
 .gwt-DecoratedPopupPanel .popupMiddleLeft {
-  background: url(images/vborder.png) repeat-y;
+  background: url(opentsdb/images/vborder.png) repeat-y;
 }
 html>body .gwt-DecoratedPopupPanel .popupMiddleRight {
-  background: url(images/vborder.png) repeat-y -4px 0px;
+  background: url(opentsdb/images/vborder.png) repeat-y -4px 0px;
 }
 * html .gwt-DecoratedPopupPanel .popupMiddleRight {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/vborder_blue_shadow.png',sizingMethod='scale');
@@ -463,16 +463,16 @@ html>body .gwt-DecoratedPopupPanel .popupMiddleRight {
   zoom: 1;
 }
 html>body .gwt-DecoratedPopupPanel .popupTopLeft {
-  background: url(images/corner.png) no-repeat 0px -10px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -10px;
 }
 html>body .gwt-DecoratedPopupPanel .popupTopRight {
-  background: url(images/corner.png) no-repeat -5px -10px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -10px;
 }
 html>body .gwt-DecoratedPopupPanel .popupBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -15px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -15px;
 }
 html>body .gwt-DecoratedPopupPanel .popupBottomRight {
-  background: url(images/corner.png) no-repeat -5px -15px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -15px;
 }
 * html .gwt-DecoratedPopupPanel .popupTopLeftInner {
   width: 5px;
@@ -519,7 +519,7 @@ html>body .gwt-DecoratedPopupPanel .popupBottomRight {
 .gwt-PushButton-down-disabled {
   margin: 0;
   text-decoration: none;
-  background: url("images/hborder.png") repeat-x 0px -989px;
+  background: url("opentsdb/images/hborder.png") repeat-x 0px -989px;
 }
 .gwt-PushButton-up,
 .gwt-PushButton-up-hovering,
@@ -580,7 +580,7 @@ html>body .gwt-DecoratedPopupPanel .popupBottomRight {
   border: 0px;
 }
 .gwt-RichTextToolbar {
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -2003px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -2003px;
   border-bottom: 1px solid #BBBBBB;
   padding: 3px;
   margin: 0px;
@@ -645,7 +645,7 @@ html>body .gwt-DecoratedPopupPanel .popupBottomRight {
   padding: 3px;
   border: 1px solid #bbbbbb;
   border-bottom: 0px;
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -989px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -989px;
 }
 .gwt-StackPanel .gwt-StackPanelContent {
   border: 1px solid #bbbbbb;
@@ -674,11 +674,11 @@ html>body .gwt-DecoratedPopupPanel .popupBottomRight {
   zoom: 1;
 }
 html>body .gwt-DecoratedStackPanel .stackItemTopLeft {
-  background: #4fb8e3 url(images/corner.png) no-repeat 0px -49px;
+  background: #4fb8e3 url(opentsdb/images/corner.png) no-repeat 0px -49px;
   border-left: 1px solid #bbbbbb;
 }
 html>body .gwt-DecoratedStackPanel .stackItemTopRight {
-  background: #4fb8e3 url(images/corner.png) no-repeat -6px -49px;
+  background: #4fb8e3 url(opentsdb/images/corner.png) no-repeat -6px -49px;
   border-right: 1px solid #bbbbbb;
 }
 .gwt-DecoratedStackPanel .stackItemTopLeftInner,
@@ -706,10 +706,10 @@ html>body .gwt-DecoratedStackPanel .stackItemTopRight {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/corner.png',sizingMethod='crop');
 }
 .gwt-DecoratedStackPanel .stackItemTopCenter {
-  background: url(images/hborder.png) 0px -21px repeat-x;
+  background: url(opentsdb/images/hborder.png) 0px -21px repeat-x;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleLeft {
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -989px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -989px;
   border-left: 1px solid #bbbbbb;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleLeftInner,
@@ -718,13 +718,13 @@ html>body .gwt-DecoratedStackPanel .stackItemTopRight {
   height: 1px;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleRight {
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -989px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -989px;
   border-right: 1px solid #bbbbbb;
 }
 .gwt-DecoratedStackPanel .stackItemMiddleCenter {
   font-weight: bold;
   font-size: 1.3em;
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -989px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -989px;
 }
 html>body .gwt-DecoratedStackPanel .gwt-StackPanelItem-first .stackItemTopRight,
 html>body .gwt-DecoratedStackPanel .gwt-StackPanelItem-first .stackItemTopLeft {
@@ -767,19 +767,19 @@ html>body .gwt-DecoratedStackPanel .gwt-StackPanelItem-below-selected .stackItem
   background: white;
 }
 .gwt-SuggestBoxPopup .suggestPopupTopCenter {
-  background: url(images/hborder.png) repeat-x;
+  background: url(opentsdb/images/hborder.png) repeat-x;
 }
 html>body .gwt-SuggestBoxPopup .suggestPopupBottomCenter {
-  background: url(images/hborder.png) repeat-x 0px -4px;
+  background: url(opentsdb/images/hborder.png) repeat-x 0px -4px;
 }
 * html .gwt-SuggestBoxPopup .suggestPopupBottomCenter {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/hborder_blue_shadow.png',sizingMethod='scale');
 }
 .gwt-SuggestBoxPopup .suggestPopupMiddleLeft {
-  background: url(images/vborder.png) repeat-y;
+  background: url(opentsdb/images/vborder.png) repeat-y;
 }
 html>body .gwt-SuggestBoxPopup .suggestPopupMiddleRight {
-  background: url(images/vborder.png) repeat-y -4px 0px;
+  background: url(opentsdb/images/vborder.png) repeat-y -4px 0px;
 }
 * html .gwt-SuggestBoxPopup .suggestPopupMiddleRight {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='gwt/opentsdb/images/ie6/vborder_blue_shadow.png',sizingMethod='scale');
@@ -805,16 +805,16 @@ html>body .gwt-SuggestBoxPopup .suggestPopupMiddleRight {
   zoom: 1;
 }
 html>body .gwt-SuggestBoxPopup .suggestPopupTopLeft {
-  background: url(images/corner.png) no-repeat 0px -23px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -23px;
 }
 html>body .gwt-SuggestBoxPopup .suggestPopupTopRight {
-  background: url(images/corner.png) no-repeat -5px -23px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -23px;
 }
 html>body .gwt-SuggestBoxPopup .suggestPopupBottomLeft {
-  background: url(images/corner.png) no-repeat 0px -28px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -28px;
 }
 html>body .gwt-SuggestBoxPopup .suggestPopupBottomRight {
-  background: url(images/corner.png) no-repeat -5px -28px;
+  background: url(opentsdb/images/corner.png) no-repeat -5px -28px;
 }
 * html .gwt-SuggestBoxPopup .suggestPopupTopLeftInner {
   width: 5px;
@@ -909,10 +909,10 @@ html>body .gwt-SuggestBoxPopup .suggestPopupBottomRight {
   height: 6px;
 }
 html>body .gwt-DecoratedTabBar .tabTopLeft {
-  background: url(images/corner.png) no-repeat 0px -55px;
+  background: url(opentsdb/images/corner.png) no-repeat 0px -55px;
 }
 html>body .gwt-DecoratedTabBar .tabTopRight {
-  background: url(images/corner.png) no-repeat -6px -55px;
+  background: url(opentsdb/images/corner.png) no-repeat -6px -55px;
 }
 * html .gwt-DecoratedTabBar .tabTopLeftInner {
   width: 5px;
@@ -1008,7 +1008,7 @@ html>body .gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabTopRight {
 .gwt-ToggleButton-down-disabled {
   margin: 0;
   text-decoration: none;
-  background: url("images/hborder.png") repeat-x 0px -989px;
+  background: url("opentsdb/images/hborder.png") repeat-x 0px -989px;
 }
 .gwt-ToggleButton-up,
 .gwt-ToggleButton-up-hovering,
@@ -1069,12 +1069,13 @@ html>body .gwt-DecoratedTabBar .gwt-TabBarItem-selected .tabTopRight {
   zoom: 1;
 }
 .gwt-Tree .gwt-TreeItem-selected {
-  background: #93c2f1 url(images/hborder.png) repeat-x 0px -1463px;
+  background: #93c2f1 url(opentsdb/images/hborder.png) repeat-x 0px -1463px;
   color: white;
 }
 .gwt-TreeItem .gwt-RadioButton input,
 .gwt-TreeItem .gwt-CheckBox input {
-  margin-right: 0px;}
+  margin-right: 0px;
+}
 * html .gwt-TreeItem .gwt-RadioButton input,
 * html .gwt-TreeItem .gwt-CheckBox input {
   margin-right: -4px;
@@ -1173,10 +1174,10 @@ td.datePickerMonth {
   padding: 3px;
   border: 1px solid #bbbbbb;
   border-bottom: 0px;
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -989px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -989px;
 }
 .gwt-StackLayoutPanel .gwt-StackLayoutPanelHeader-hovering {
-  background: #4fb8e3 url(images/hborder.png) repeat-x 0px -1464px;
+  background: #4fb8e3 url(opentsdb/images/hborder.png) repeat-x 0px -1464px;
 }
 .gwt-StackLayoutPanel .gwt-StackLayoutPanelContent {
   border: 1px solid #bbbbbb;
@@ -1212,11 +1213,11 @@ td.datePickerMonth {
 }
 
 .gwt-SplitLayoutPanel-HDragger {
-  background: #4fb8e3 url(images/splitPanelThumb.png) center center no-repeat;
+  background: #4fb8e3 url(opentsdb/images/splitPanelThumb.png) center center no-repeat;
   cursor: col-resize;
 }
 
 .gwt-SplitLayoutPanel-VDragger {
-  background: #4fb8e3 url(images/splitPanelThumb.png) center center no-repeat;
+  background: #4fb8e3 url(opentsdb/images/splitPanelThumb.png) center center no-repeat;
   cursor: row-resize;
 }
